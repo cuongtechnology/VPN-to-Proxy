@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+  <title id="title">VPNtoProxy — Your connections. Your rules.</title>
+  <desc id="desc">A dark green banner showing clients connected through routing policy to proxy and VPN outbounds.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d211a"/><stop offset="1" stop-color="#203f2e"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#b2d4ab" stroke-opacity=".06"/></pattern>
+    <linearGradient id="line"><stop stop-color="#9bc8b0" stop-opacity=".1"/><stop offset=".5" stop-color="#d3dfad"/><stop offset="1" stop-color="#9bc8b0" stop-opacity=".2"/></linearGradient>
+  </defs>
+  <rect width="1600" height="440" rx="24" fill="url(#bg)"/><rect width="1600" height="440" rx="24" fill="url(#grid)"/>
+  <circle cx="1350" cy="140" r="245" fill="#87b879" opacity=".035"/><circle cx="1350" cy="140" r="175" fill="none" stroke="#bfd3a4" stroke-opacity=".08"/>
+  <g transform="translate(76 74)"><rect width="62" height="62" rx="17" fill="#a4ccae" fill-opacity=".1" stroke="#5b8067"/>
+  <g stroke="#b9dec2" fill="none" stroke-width="2.3"><rect x="25" y="13" width="12" height="12" rx="3"/><rect x="11" y="39" width="12" height="12" rx="3"/><rect x="39" y="39" width="12" height="12" rx="3"/><path d="M31 25v8H17v6m14-6h14v6"/></g></g>
+  <text x="158" y="113" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="4" fill="#a8c6ae">LOCAL NETWORK WORKSPACE</text>
+  <text x="76" y="227" font-family="Segoe UI,Arial,sans-serif" font-size="79" font-weight="700" letter-spacing="-3" fill="#f1f5e9">VPN<tspan fill="#adc8a4" font-weight="400">to</tspan>Proxy</text>
+  <text x="81" y="281" font-family="Segoe UI,Arial,sans-serif" font-size="25" fill="#b7cabb">Your connections. Your rules.</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="1.4" fill="#bfd3bb"><rect x="80" y="325" width="130" height="32" rx="16" stroke="#4c6f53" fill="#213d2b"/><text x="102" y="346">OPEN SOURCE</text><rect x="223" y="325" width="144" height="32" rx="16" stroke="#4c6f53" fill="#213d2b"/><text x="244" y="346">ENGLISH / VIỆT</text><rect x="380" y="325" width="134" height="32" rx="16" stroke="#4c6f53" fill="#213d2b"/><text x="402" y="346">LOCAL FIRST</text></g>
+  <g fill="none" stroke="url(#line)" stroke-width="2"><path d="M912 151h76q28 0 28 28v26h90M912 287h76q28 0 28-28v-26h90M1212 219h64q26 0 26-26v-42h70M1212 219h64q26 0 26 26v42h70"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle"><g fill="#1a3425" stroke="#557451"><rect x="752" y="116" width="162" height="70" rx="15"/><rect x="752" y="252" width="162" height="70" rx="15"/><rect x="1080" y="172" width="134" height="94" rx="21"/><rect x="1352" y="116" width="171" height="70" rx="15"/><rect x="1352" y="252" width="171" height="70" rx="15"/></g><g fill="#d6e4c8" font-size="17"><text x="833" y="158">Applications</text><text x="833" y="294">VPN clients</text><text x="1147" y="216" font-weight="600">Routing</text><text x="1437" y="158">HTTP / SOCKS</text><text x="1437" y="294">VPN outbounds</text></g><text x="1147" y="239" font-size="11" fill="#95b395">EXPLICIT POLICY</text></g>
+</svg>

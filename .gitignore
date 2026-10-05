@@ -1,0 +1,11 @@
+node_modules/
+frontend/dist/
+build/bin/
+.tools/
+*.log
+*.local
+coverage/
+.local-data/
+release/
+tools/sing-box/
+*.tmp

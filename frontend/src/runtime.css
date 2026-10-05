@@ -1,0 +1,124 @@
+.runtime-panel {
+  display: grid;
+  gap: 22px;
+}
+.engine-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 22px 25px;
+}
+.engine-controls > input {
+  flex: 1;
+  min-width: 220px;
+}
+.runtime-metrics {
+  font-size: 11px;
+  color: #70866e;
+}
+.runtime-panel .panel-heading {
+  gap: 20px;
+}
+.runtime-panel .panel-heading p {
+  max-width: 680px;
+}
+.runtime-panel .panel-heading button {
+  flex-shrink: 0;
+}
+.engine-link {
+  margin-top: 12px;
+  font-size: 11px;
+  padding: 6px 10px;
+  background: #ffffff90;
+}
+.vpn-server {
+  padding: 22px 25px;
+  border-bottom: 1px solid #e8eee4;
+}
+.vpn-server-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.key-line {
+  font-size: 11px;
+  color: #778975;
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+.peer-row {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 0;
+  font-size: 12px;
+  border-top: 1px solid #edf0e9;
+  flex-wrap: wrap;
+}
+.peer-row > button {
+  margin-left: auto;
+  font-size: 11px;
+}
+.runtime-overlay {
+  position: fixed;
+  inset: 0;
+  background: #14251f70;
+  backdrop-filter: blur(3px);
+  display: grid;
+  place-items: center;
+  z-index: 20;
+  padding: 25px;
+}
+.runtime-dialog {
+  background: white;
+  border: 1px solid #dce5db;
+  border-radius: 14px;
+  padding: 25px;
+  width: min(560px, 100%);
+  max-height: 90vh;
+  overflow: auto;
+  box-shadow: 0 30px 90px #142c2a33;
+}
+.runtime-dialog textarea {
+  font:
+    12px/1.7 Consolas,
+    monospace;
+  resize: vertical;
+  min-height: 130px;
+  padding: 12px;
+  border: 1px solid #dce4e0;
+  border-radius: 8px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox input {
+  width: auto;
+}
+.runtime-panel .setting input[type="file"] {
+  width: auto;
+  max-width: 280px;
+}
+@media (max-width: 760px) {
+  .runtime-panel .panel-heading,
+  .vpn-server-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .engine-controls {
+    padding: 16px;
+  }
+  .engine-controls > input {
+    min-width: 150px;
+  }
+  .runtime-overlay {
+    padding: 12px;
+  }
+  .peer-row > button {
+    margin-left: 0;
+  }
+}
